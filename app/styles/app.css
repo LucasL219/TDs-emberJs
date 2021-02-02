@@ -1,0 +1,43 @@
+@import 'typography.css';
+@import 'forms.css';
+
+.bleu {
+  color: white;background-color: blue;
+  padding: 10px;text-align: center;
+}
+
+.vert {
+  color: white;background-color: green;
+  padding: 10px;text-align: center;
+  margin-left: auto; margin-right: auto;
+  display: block;padding: 15px 25px;
+  font-size: 24px;cursor: pointer;
+  text-decoration: none;outline: none;
+  border: none;border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.vert:active {
+  background-color: #3e8e41;box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.gris {
+  color: white;background-color: grey;
+  padding: 10px;text-align: center;
+  margin-left: auto;margin-right: auto;
+  display: block;padding: 15px 25px;
+  font-size: 24px;cursor: pointer;
+  text-decoration: none;outline: none;
+  border: none;border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.gris:active {
+  background-color: #3e8e41;box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.centrer {
+  text-align: center;
+}
