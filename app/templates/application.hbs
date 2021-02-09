@@ -1,7 +1,9 @@
-{{page-title "TD1"}}
+<script>
+function test() {window.location.href = "http://localhost:4200/pageun/";}
+function test2() {window.location.href = "http://localhost:4200";}
+</script>
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+{{page-title "TD3"}}
+<button type="button" onclick="test2()">application</button>
+<button type="button" onclick="test()">le site</button>
 {{outlet}}

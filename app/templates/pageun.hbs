@@ -1,0 +1,28 @@
+{{page-title "Pageun"}}
+<div class="arrierebleu">
+  <h1 class="ecritureblanche">Sélectionnez vos produits</h1>
+  <table>
+    <td>Produits disponibles:<br/>
+      <select name="disponibles" id="dispo" size ="7" multiple>
+        <option value="1" text="50 Must-have">50 Must-have</option>
+        <option value="2" text="Making a Super">Making a Super</option>
+        <option value="3" text="How to Make a">How to Make a </option>
+        <option value="4" text="Smooth Diagonal">Smooth Diagonal</option>
+        <option value="5" text="Your first Backbone">Your first Backbone</option>
+      </select>
+    </td>
+    <td>
+      <br/><button type="button" {{action "add"}} >ajouter</button>
+      <br/><button type="button" {{action "addall"}}>ajouter selection HS</button>
+      <br/><button type="button" {{action "remove"}}>retirer/button>
+      <br/><button type="button" {{action "removeall"}}>retirer selection HS</button>
+    </td>
+    <td>Produits selectionnés:<br/>
+      <select name="selectionnées" id="selectionn" size ="7" multiple>
+      </select>
+    </td>
+  </table>
+  <h0>produits selectionnés:</h0><br/>
+  <button type="button" onclick="">Etape suivante</button>
+</div>
+{{outlet}}
